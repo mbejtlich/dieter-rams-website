@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+}
+
+.principle {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Background images for each principle */
+#principle1 { background-image: url('https://media.architecturaldigest.com/photos/66a117110b0fde0b5d024c28/16:9/w_2560%2Cc_limit/AD0924_JAMES_DN_16%2520copy.jpg'); }
+#principle2 { background-image: url('https://media.architecturaldigest.com/photos/6008c75a3190348442a6adb0/16:9/w_2560%2Cc_limit/AD0221_GIBSON_1-.jpg'); }
+#principle3 { background-image: url('https://media.architecturaldigest.com/photos/6614650169768961eb6aa17c/16:9/w_2560%2Cc_limit/design%2520by%2520Maison%2520Garance%2520photo%2520by%2520Tim%2520Hirschmann.jpg'); }
+#principle4 { background-image: url('https://media.architecturaldigest.com/photos/66b4df13eeae22bd7eae861e/master/w_1600%2Cc_limit/Crystal%2520Sinclair.jpg'); }
+#principle5 { background-image: url('https://www.thenewyorkoptimist.net/uploads/6/6/7/3/66739453/architecturaldigestdesignshow2019-3_orig.jpg'); }
+#principle6 { background-image: url('https://www.delightfull.eu/blog/wp-content/uploads/2017/12/The-10-Cr%C3%A8me-De-La-Cr%C3%A8me-Architectural-Digest-Interior-Designers-7.jpg'); }
+#principle7 { background-image: url('https://media.architecturaldigest.com/photos/568c50de7fd9a58978b7ea80/16:9/w_2580,c_limit/1_SmallKitchens_JennyWolf_IMAGE.jpg'); }
+#principle8 { background-image: url('https://www.aaschool.ac.uk/api/glide?filename=/assets/img/news/julien.jpg&preset=extralarge'); }
+#principle9 { background-image: url('https://media.architecturaldigest.com/photos/65552d8a42935d4d99899024/4:3/w_3840,h_2880,c_limit/1%20Jennifer%20Robin_Photo%20by%20Paul%20Dyer.jpg'); }
+#principle10 { background-image: url('https://media.architecturaldigest.com/photos/6008c75a3190348442a6adb0/16:9/w_2560%2Cc_limit/AD0221_GIBSON_1-.jpg'); }
